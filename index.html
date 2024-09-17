@@ -10,10 +10,13 @@
 <body>
 
     <header class="main-header">
+        <!-- header toboolist -->
         <img class="logo-toboolist" src="./img/logo.png" height="30px" alt="logo Toboolist">
         <strong class="text-toboolist">Toboolist</strong>
     </header>
+    <!-- main content diviso in 2 container -->
     <main class="main-content">
+        <!-- container #1 -->
         <div class="container">
             <div class="card bg-blue">
                 Add Task
@@ -22,31 +25,48 @@
                 Add Section
             </div>  
         </div>
-
+        <!-- container #2 -->
         <div class="container pd-bot-20" style="margin-top: 2px;">
             <div class="list">
                 <ul>
-                    <li>
+                    <li class="list-item-outer">
                         <strong class="list-title">&#11167; New Task</strong>
                         <ul>
-                            <li class="list-item">&#x2705; Quarterly Newsletter</li>
+                            <li class="list-item-inner">&#x2705; Quarterly Newsletter</li>
                             <li class="card bg-blue card-list">Editorial</li>
                         </ul>
                     </li>
-                    <li>
+
+                    <li class="list-item-outer">
                         <strong class="list-title">&#11167; Today</strong>
                         <ul>
-                            <li class="list-item">&#x2705; Recruiting blog post</li>
+                            <li class="list-item-inner">&#x2705; Recruiting blog post</li>
                             <li class="card bg-blue card-list">Editorial</li> <br>
 
-                            <li class="list-item">&#x2705; Mobile app launch</li>
+                            <li class="list-item-inner">&#x2705; Mobile app launch</li>
                             <li class="card bg-purple card-list">Q1 Goals</li> <br>
 
-                            <li class="list-item">&#10060; Interview John H.</li>
-                            <li class="card bg-green card-list">Rectruiting</li> <br>
+                            <li class="list-item-inner">&#10060; Interview John H.</li>
+                            <li class="card bg-aqua card-list">Rectruiting</li> <br>
 
-                            <li class="list-item">&#x2705; Summit update to mobile storefronts</li>
+                            <li class="list-item-inner">&#x2705; Summit update to mobile storefronts</li>
                             <li class="card bg-orange card-list">Mobile</li> <br>
+                        </ul>
+                    </li>
+
+                    <li class="list-item-outer">
+                        <strong class="list-title">&#11167; Upcoming</strong>
+                        <ul>
+                            <li class="list-item-inner">&#10060; Schedule meeting with Alex</li> <br>
+
+                            <li class="list-item-inner">&#x2705; Homepage fresh</li>
+                            <li class="card bg-pink card-list">Website</li> <br>
+
+                            <li class="list-item-inner">&#x2705; Onboard new Sales team members</li>
+                            <li class="card bg-green card-list">Sales</li> <br>
+
+                            <li class="list-item-inner">&#x2705; Review editorial calendar</li>
+                            <li class="card bg-blue card-list">Editorial</li> <br>
                         </ul>
                     </li>
                 </ul>

@@ -26,6 +26,13 @@ ul, ol{
     padding-bottom: 20px;
 }
 
+/* page background color */
+
+body{
+    background-color: rgb(246,248,249);
+}
+
+/* header */
 .main-header{
     background-color: white;
     padding-top: 5px;
@@ -42,13 +49,17 @@ ul, ol{
     font-size: 18px;
 }
 
+
+/* main content */
 .main-content{
-    background-color: rgb(246,248,249);
+    /* background-color: rgb(246,248,249); */
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 30px;
     padding-right: 30px;
 }
+
+/* card styles */
 
 .card{
     border-radius: 3px;
@@ -78,7 +89,7 @@ ul, ol{
     color: white;
 }
 
-.card.bg-green{
+.card.bg-aqua{
     background-color: #64c0a9;
     color: white;
 }
@@ -88,23 +99,40 @@ ul, ol{
     color: white;
 }
 
+.card.bg-pink{
+    background-color: #d863a1;
+    color: white;
+}
+
+.card.bg-green{
+    background-color: #b0c926;
+    color: white;
+}
+
 .card.card-list{
     border-radius: 10px;
     font-size: 6px;
     padding-top: 4px;
 }
 
+/* list */
+
+.list-item-outer{
+    padding-bottom: 5px;
+}
+
 .list-title{
     font-size: 10px;
 }
 
-.list-item{
+.list-item-inner{
     padding-left: 5px;
     font-size: 8px;
     display: inline-block;
     vertical-align: middle;
 }
 
+/* hide content - not used*/
 
 .hide{
     display: none;
