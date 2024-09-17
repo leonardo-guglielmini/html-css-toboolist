@@ -18,8 +18,12 @@ ul, ol{
     padding-left: 20px;
     padding-bottom: 3px;
     background-color: white;
-    border: 1px solid lightgray;
-    border-radius: 3px;
+    /* border: 0.5px solid lightgray; */
+    /* border-radius: 3px; */
+}
+
+.container.pd-bot-20{
+    padding-bottom: 20px;
 }
 
 .main-header{
@@ -48,23 +52,57 @@ ul, ol{
 
 .card{
     border-radius: 3px;
-    width: 70px;
+    width: auto;
     height: 15px;
     text-align: center;
-    border: 1px solid lightgray;
     font-size: 8px;
     display: inline-block;
     vertical-align: middle;
-    padding-top: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .card.bg-blue{
     background-color: #47adf1;
     color: white;
-    width: 60px;
+    padding-top: 3px;
 }
 
 .card.bg-white{
-    color:rgba(215,219,223,75) ;
+    color:rgba(215,219,223,75);
+    border: 1px solid lightgray;
+    padding-top: 2px;
+}
+
+.card.bg-purple{
+    background-color: #9c72e4;
+    color: white;
+}
+
+.card.bg-green{
+    background-color: #64c0a9;
+    color: white;
+}
+
+.card.bg-orange{
+    background-color: #f29e33;
+    color: white;
+}
+
+.card.card-list{
+    border-radius: 10px;
+    font-size: 6px;
+    padding-top: 4px;
+}
+
+.list-title{
+    font-size: 10px;
+}
+
+.list-item{
+    padding-left: 5px;
+    font-size: 8px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 
